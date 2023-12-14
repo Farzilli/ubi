@@ -1,0 +1,51 @@
+#buy_main {
+    h1 {
+    }
+
+    form {
+        background-color: $blu;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        translate: 50% -50%;
+        width: 30%;
+        border-radius: 5px;
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        input[type="email"] {
+            width: 70%;
+            border: 0.5px solid rgb(143, 143, 143);
+            padding: 10px 15px;
+            background-color: $blu-scuro;
+            font-size: 15px;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: $giallo;
+            padding: 10px;
+            width: 70%;
+            border-radius: 50px;
+            text-transform: capitalize;
+            cursor: pointer;
+            transition: 0.05s;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+
+#buy_bd {
+    min-height: 100vh;
+}

@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+$blu: #00244d;
+$blu-scuro: #001c38;
+$azzurro: rgb(1, 72, 138);
+$giallo: #ffd900;
+
+$media-little: "only screen and (max-width : 720px)";
+$media-big: "only screen and (min-width : 720px)";
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+    width: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Varela Round", sans-serif;
+    background-color: $blu-scuro;
+    color: $giallo;
+}
+
+@import "./page_styles/index.scss";
+@import "./page_styles/ticket.scss";
+@import "./page_styles/login.scss";
+@import "./page_styles/buy.scss";
