@@ -492,6 +492,7 @@ body {
   right: 50%;
   translate: 50% -50%;
   width: 30%;
+  min-width: 300px;
   border-radius: 5px;
 }
 #login_main form h1 {
@@ -532,6 +533,7 @@ body {
   align-items: center;
   justify-content: space-around;
   position: absolute;
+  min-width: 300px;
   top: 50%;
   right: 50%;
   translate: 50% -50%;
